@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Header/Header.tsx" afterDir="false" />
+    <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="added header">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/App/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/App/App.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
       <workItem from="1649594209438" duration="33000" />
       <workItem from="1649699020022" duration="920000" />
       <workItem from="1649700122831" duration="1701000" />
+      <workItem from="1649836483920" duration="366000" />
     </task>
     <servers />
   </component>
