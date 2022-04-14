@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="added header">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/App/App.tsx" afterDir="false" />
+    <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="added header (fix)">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/App/App.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +14,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="27bgS7WwvMbmOA0hnPj5oiNxdw4" />
@@ -45,6 +53,7 @@
       <workItem from="1649699020022" duration="920000" />
       <workItem from="1649700122831" duration="1701000" />
       <workItem from="1649836483920" duration="366000" />
+      <workItem from="1649957609079" duration="4694000" />
     </task>
     <servers />
   </component>
@@ -56,7 +65,39 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/Kot" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Kot" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/Nikitos" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>

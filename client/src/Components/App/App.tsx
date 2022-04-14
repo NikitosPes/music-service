@@ -1,8 +1,8 @@
-import Header from "../Header/Header";
-
+import Navmenu from "../Navmenu/Navmenu";
+import styles from "./App.module.css"
 function App() {
-    return <div>
-        <Header/>
+    return <div className={styles.appMain}>
+        <Navmenu/>
     </div>
 }
 

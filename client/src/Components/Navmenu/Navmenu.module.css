@@ -1,0 +1,38 @@
+.nav_menu {
+    flex-basis: 15rem;
+    background-color: #181B25;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+.nav {
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+    padding: 0;
+}
+
+.nav a {
+    text-decoration: none;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    min-width: 100%;
+}
+.title {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.icon {
+    margin-right: 20px;
+}
