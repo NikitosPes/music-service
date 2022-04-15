@@ -1,3 +1,7 @@
+:root {
+    --red-color: #EE2E55;
+}
+
 .nav_menu {
     flex-basis: 15rem;
     background-color: #181B25;
@@ -8,6 +12,9 @@
     color: #fff;
 
 }
+.subMenu {
+    width: 100%;
+}
 .nav {
     text-align: left;
     list-style: none;
@@ -16,23 +23,60 @@
     margin:0;
     padding: 0;
 }
-
+.nav li {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    transition: all .4s ease;
+}
+.nav li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
 .nav a {
+    min-width: 60%;
+    margin: 0 auto;
+    align-self: center;
     text-decoration: none;
     padding: 5px 0;
     display: flex;
     align-items: center;
-    color: #fff;
+    color: inherit;
     font-size: 15px;
     font-weight: 300;
-    min-width: 100%;
 }
 .title {
     margin-top: 20px;
     font-size: 16px;
     font-weight: 300;
     text-transform: uppercase;
+
+}
+.subMenu_header {
+    display: flex;
+    max-width: 60%;
+    min-width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.subMenu_header button {
+    color: var(--red-color);
+    background-color: rgba(255, 255, 255, 0.06);
+    border: none;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    cursor: pointer;
+
+    transform: translateY(10%);
 }
 .icon {
     margin-right: 20px;
 }
+.active {
+    color: var(--red-color);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow:-5px 0 0 0 var(--red-color) inset;
+}
+

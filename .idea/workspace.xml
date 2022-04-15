@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="added header (fix)">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/App/App.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,10 +17,18 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Kot" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="27bgS7WwvMbmOA0hnPj5oiNxdw4" />
   <component name="ProjectViewState">
@@ -54,6 +63,7 @@
       <workItem from="1649700122831" duration="1701000" />
       <workItem from="1649836483920" duration="366000" />
       <workItem from="1649957609079" duration="4694000" />
+      <workItem from="1650044026085" duration="4888000" />
     </task>
     <servers />
   </component>
