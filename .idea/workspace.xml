@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="added header (fix)">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Search/Search.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Interfaces/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Interfaces/interfaces.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +15,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Kot" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -35,16 +33,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="D:\projects\music-service\.gitignore\client\node_modules\typescript\lib" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\Project\\music-service\\client\\node_modules\\typescript\\lib"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\music-service\.gitignore\client\src\Components" />
@@ -112,6 +106,5 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
