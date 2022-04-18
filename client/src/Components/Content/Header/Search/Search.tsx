@@ -1,7 +1,7 @@
 import SearchIcon from '@mui/icons-material/Search';
 import styles from './Search.module.css'
 import {useEffect, useState} from "react";
-import {IPerformerModel, ISongModel} from "../../Interfaces/interfaces";
+import {IPerformerModel, ISongModel} from "../../../../Interfaces/interfaces";
 
 const Search: React.FC<{ searchRequest: (data: string) => ISongModel | undefined }> = ({searchRequest} ) =>  {
 

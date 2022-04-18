@@ -4,6 +4,7 @@
 
 .nav_menu {
     flex-basis: 15rem;
+    flex-shrink: 0;
     background-color: #181B25;
     display: flex;
     flex-direction: column;

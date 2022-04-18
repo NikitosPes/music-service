@@ -18,7 +18,6 @@ const Navmenu:React.FC<{myPlaylists: IPlaylistModel[]}> = ({myPlaylists}) => {
     return (
         <div className={styles.nav_menu}>
             <img src="" alt="logo"/>
-
             <div className={styles.subMenu}>
                 <div className={styles.subMenu_header}>
                     <h2 className={styles.title}>Menu</h2>

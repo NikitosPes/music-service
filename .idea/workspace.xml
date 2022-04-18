@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9314ee9e-8a58-4cf6-a23a-b6050f9030a0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Content/Content.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Content/Content.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Content/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/Components/Content/Header/Header.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/App/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Navmenu/Navmenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Interfaces/interfaces.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Interfaces/interfaces.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Search/Search.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Content/Header/Search/Search.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/Search/Search.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Content/Header/Search/Search.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +54,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\music-service\client\src\Components\Content\Header" />
       <recent name="D:\projects\music-service\.gitignore\client\src\Components" />
     </key>
   </component>
@@ -66,7 +72,7 @@
       <workItem from="1649836483920" duration="366000" />
       <workItem from="1649957609079" duration="4694000" />
       <workItem from="1650044026085" duration="4888000" />
-      <workItem from="1650303462705" duration="1296000" />
+      <workItem from="1650303462705" duration="4602000" />
     </task>
     <task id="LOCAL-00001" summary="Upgraded Search block.">
       <created>1650219553562</created>
@@ -75,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650219553562</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Navmenu style fix.">
+      <created>1650304875797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650304875797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +139,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Upgraded Search block." />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded Search block." />
+    <MESSAGE value="Navmenu style fix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Navmenu style fix." />
   </component>
 </project>
