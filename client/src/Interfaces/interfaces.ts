@@ -11,4 +11,9 @@ export interface IPerformerModel {
     imgURL: string | null
 }
 
+export interface IPlaylistModel {
+    title: string,
+    description: string | null
+}
+
 

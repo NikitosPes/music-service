@@ -23,24 +23,24 @@
     margin:0;
     padding: 0;
 }
-.nav li {
-    width: 100%;
+.nav a {
+    min-width: 100%;
     display: inline-flex;
+    text-decoration: none;
     justify-content: center;
     transition: all .4s ease;
+    color: inherit;
 }
-.nav li:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+.nav a:hover {
+    color: var(--red-color);
 }
-.nav a {
-    min-width: 60%;
+.nav div {
+    width: 60%;
     margin: 0 auto;
     align-self: center;
-    text-decoration: none;
     padding: 5px 0;
     display: flex;
     align-items: center;
-    color: inherit;
     font-size: 15px;
     font-weight: 300;
 }
