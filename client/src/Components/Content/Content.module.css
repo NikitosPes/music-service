@@ -1,0 +1,5 @@
+.content {
+    flex-basis: 85rem;
+    flex-grow: 1;
+    background-image: linear-gradient(to bottom, #11677e, #1c5067, #1d3b4f, #1a2736, #11151e);
+}
