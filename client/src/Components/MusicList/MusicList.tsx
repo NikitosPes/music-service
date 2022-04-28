@@ -7,8 +7,14 @@ import styles from './MusicList.module.css';
 const MusicList: React.FC<{title: string}> = ({title}) => {
     return (
         <div className={styles.musicListContainer}>
-            <h2>{title}</h2>
+            <div className={styles.musicListContainerHead} >
+                <h2 className={styles.musicListContainerTitle} >{title}</h2>
+                <button className={styles.musicListContainerButton} >
+                        See All 
+                </button>
+            </div>
             {songs.map((song, index) => <MusicListItem index={index} song={song}/>)}
+            
         </div>
     )
 }
