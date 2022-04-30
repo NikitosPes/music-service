@@ -1,8 +1,11 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 20px;
     align-items: center;
+}
+.header h2 {
+    line-height: 1;
+    color: #ffffff;
 }
 .serviceBlock {
     display: flex;

@@ -1,6 +1,11 @@
+import MusicList from "../../Components/MusicList/MusicList";
+
 const Main = () => {
     return (
-        <h1>Main Page</h1>
+        <div>
+            <h1>Main</h1>
+            <MusicList title={'Recommendations'}/>
+        </div>
     )
 }
 

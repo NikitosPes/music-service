@@ -5,10 +5,12 @@ import Content from "../Content/Content";
 
 
 function App() {
-    return <div className={styles.appMain}>
-        <Navmenu myPlaylists={MyPlaylists}/>
-        <Content />
-    </div>
+    return (
+            <div className={styles.appMain}>
+                <Navmenu myPlaylists={MyPlaylists}/>
+                <Content />
+            </div>
+    )
 }
 
 const MyPlaylists: Array<IPlaylistModel> = [
