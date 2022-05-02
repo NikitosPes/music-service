@@ -1,6 +1,38 @@
-.musicListContainer {
-    background-color: grey;
-    border-radius: 30px;
-    padding: 0 15px 0 15px;
-    width: 50%;
+
+.musicListContainer{
+    border: 5px solid #1E222B;
+    background: #181A26;
+    border-radius: 10px;
+    width: 60%;
+    margin: 30px 0px 0px 50px;
+    box-shadow: 3px 3px 1px 1px #333;
+    text-indent: 25px;
+    color: #fff;
+    padding: 15px;
+
+
+}
+
+.musicListContainerHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.musicListContainerButton{
+    height: 28px;
+    color: #666;
+    background: transparent;
+    border: none;
+    
+}
+
+.musicListContainerButton:hover{
+    color: white;
+}
+
+.musicListContainerTitle{
+    padding: 0px;
+    margin: 0px;
 }
